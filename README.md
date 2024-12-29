@@ -1,6 +1,6 @@
-# React + Vite
+# ToDoList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+References: Favicon - https://favicon.io/logo-generator/, ChatGPT
 
 Currently, two official plugins are available:
 
