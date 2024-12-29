@@ -1,6 +1,6 @@
 # ToDoList App
 
-References: Favicon - https://favicon.io/logo-generator/, ChatGPT
+References: Favicon - https://favicon.io/logo-generator/, CSS Gradient - https://www.joshwcomeau.com/gradient-generator/, ChatGPT
 
 Currently, two official plugins are available:
 
