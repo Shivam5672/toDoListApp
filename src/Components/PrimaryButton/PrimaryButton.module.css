@@ -1,0 +1,30 @@
+.primaryBtn{
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(
+                        45deg,
+                        hsl(61deg 82% 22%) 0%,
+                        hsl(60deg 58% 29%) 4%,
+                        hsl(59deg 46% 35%) 9%,
+                        hsl(58deg 39% 41%) 14%,
+                        hsl(57deg 33% 47%) 20%,
+                        hsl(55deg 33% 54%) 27%,
+                        hsl(55deg 38% 60%) 36%,
+                        hsl(56deg 45% 61%) 47%,
+                        hsl(58deg 52% 61%) 60%,
+                        hsl(60deg 60% 62%) 72%,
+                        hsl(62deg 70% 63%) 82%,
+                        hsl(63deg 81% 64%) 92%,
+                        hsl(65deg 93% 64%) 100%
+                    );
+    color: rgb(108, 104, 104);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.primaryBtn:hover{
+    color: black;
+}

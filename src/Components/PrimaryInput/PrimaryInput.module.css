@@ -1,0 +1,61 @@
+.formControl {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.label {
+  min-width: fit-content;
+  width: 50%;
+  color: #3d3d3d;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+}
+
+.primaryInput {
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d5d5d5;
+  background: #fafafa;
+  font-size: 0.875rem;
+  font-weight: 400;
+  height: 2.5rem;
+  color: var(--app-black);
+}
+
+.primaryInput::placeholder {
+  color: #797979;
+}
+
+
+.primaryInput::file-selector-button {
+  color: var(--app-white);
+  padding: 0.5em;
+  background-color: var(--app-primary);
+  height: 100%;
+  border: none;
+  margin-right: 0.75rem;
+}
+
+.primaryInput[type="file"] {
+  padding: 0;
+}
+
+.primaryInput[type="range"] {
+  padding: 0;
+}
+
+.mandatory {
+  color: red;
+  padding: 0 1px;
+}
+
+.error {
+    font-size: 0.875rem;
+    color: var(--app-danger);
+    line-height: 1.275rem;
+}
